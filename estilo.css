@@ -1,0 +1,501 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#FBFBFB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*MENU*/
+.cabecalho{
+    width: 100%;
+    height: 100px;
+    background-color: #FBFBFB;
+    text-align: center;
+    clear: both;
+
+}
+
+.divIcon{
+    width: 30%;
+    height: 100px;
+    padding-top: 4px;
+    float: left;
+}
+
+.menu{
+    width: 50%;
+    font-size: 25px;
+    height: 100px;
+    float: right;
+    font-style: bold;  
+}
+
+
+nav ul{
+    text-align: center;
+    align-items: center;
+}
+
+nav li{
+    padding: 0 25px;
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    color: #2F2F2F;
+    font-style: bold;
+}
+
+a:hover{
+    color: #DA7B9E;
+}
+
+
+
+
+/*FIM*/
+
+/*BANNER PRINCIPAL*/
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: #FBFBFB;
+    clear: both;
+
+}
+
+
+.esquerda{
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin: auto;
+
+}
+
+
+.direita{
+    width: 50%;
+    height: 500px;
+    float: right;
+    margin: auto;
+}
+
+.direita img{
+    align-items: center;
+}
+
+.esquerda h1{
+    padding-top: 70px;
+    text-align: center;
+    font-style: bold;
+    font-size: 40px;
+    color: #333;
+}
+
+.esquerda p{
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+.loginCad a{
+    text-decoration: none;
+}
+
+.loginCad ul{
+    align-items: center;
+}
+
+.loginCad li{
+    display: inline;
+}
+
+.loginCad a{
+    font-size: 20px;
+    color: #DA7B9E;
+    background-image: linear-gradient( toright, red, green, yellow, blue );
+    
+}
+
+/*FIM*/
+
+/*BANNER POR QUE APRENDER A PROGRAMAR?*/
+
+.bannerProgramacao{
+    background-color: #8C52FF;
+    width: 100%;
+    height: 400px;
+}
+
+.bannerProgramacao h3{
+    text-align: center;
+    color: #FBFBFB;
+    padding-top: 30px;
+    font-size: 20px;
+    clear: both;
+}
+
+.MT{
+    width: 32%;
+    height: 320;
+    text-align: center;
+    float: left;
+}
+
+.DH{
+    width: 32%;
+    height: 320;
+    text-align: center;
+    float: left;
+}
+
+.MD{
+    width: 32%;
+    height: 320;
+    text-align: center;
+    float: right;
+}
+
+.bannerProgramacao h5{
+    color: #333333;
+}
+
+.bannerProgramacao p{
+    color: #FBFBFB;
+}
+
+/*FIM*/
+
+
+/*RODAPE*/
+
+.redes a{
+    text-decoration: none;
+}
+
+.redes ul{
+    align-items: center;
+}
+
+.redes li{
+    display: inline;
+}
+
+.rodape h2{
+    text-align: center;
+    font-style: normal;
+}
+
+
+/*FIM*/
+
+/*Cursos*/
+
+.proximos{
+  background:#8C52FF;;
+  width:250px;
+  height: 250px;
+  float:left;
+  font: 55px Calibri;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.proximos:hover {
+filter: opacity(75%);
+        }
+
+.php{
+  background-color: black;
+  width:250px;
+  height: 250px;
+  float:left;
+  font: 45px Lucida Console;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.html{
+background:#8C52FF;
+width:250px;
+height: 250px;
+float:left;
+  font: 45px Lucida Console;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.html:hover {
+filter: opacity(75%);
+        }
+
+.javascript{
+background-color: black;
+width:250px;
+height: 250px;
+float:left;
+  font: 32px Lucida Console;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logica{
+background:#8C52FF;
+width:250px;
+height: 250px;
+float:left;
+  font: 25px Lucida Console;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.logica:hover {
+filter: opacity(75%);
+        }
+
+.front-end{
+background-color: black;
+width:250px;
+height: 250px;
+float:left;
+  font: 35px Lucida Console;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#rcorners1 {
+border-radius: 15px 50px 30px;
+background:#836FFF;
+padding: 30px; 
+width: 470px;
+height: 215px;
+margin: auto; 
+text-align: justify;
+align-items: left;
+font: 23px Calibri;
+color: white;
+float: left;
+margin: auto;
+position: absolute;
+left: 35px;
+top: 490px;
+}
+
+
+/*Links cursos*/
+
+.depoimentos {
+
+    font: 25px Lucida Console;
+    width: 200px;
+    height: 45px;
+    border: none;
+    color: #FBFBFB;
+    border-radius: 47px; 
+    background-image: linear-gradient(#7478D3, #9379C2, #AA7AB6);
+    left: 650px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.depoimentos:hover {
+filter: opacity(75%);
+color:black;
+font-weight: bolder; 
+box-shadow: 10px 10px 0 pink, -10px -10px pink;
+-webkit-transition : box-shadow ease-out 0.6s;
+transition : box-shadow ease-out 0.5s;  
+
+}
+
+.metodologia {
+
+    font: 25px Lucida Console;
+    width: 200px;
+    height: 45px;
+    border: none;
+    color: #FBFBFB;
+    font-weight: bolder; 
+    border-radius: 50px; 
+    background-image: linear-gradient(#7478D3, #9379C2, #AA7AB6);
+    left: 900px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.metodologia:hover {
+filter: opacity(75%);
+color: black;
+box-shadow: 10px 10px 0 pink, -10px -10px pink;
+-webkit-transition : box-shadow ease-out 0.6s;
+transition : box-shadow ease-out 0.5s;  
+
+}
+
+/*Livros*/
+
+.livros {
+
+    font: 27px Lucida Console;
+    width: 200px;
+    height: 45px;
+    border: none;
+    color: #FBFBFB;
+    border-radius: 50px; 
+    background-image: linear-gradient(#7478D3, #9379C2, #AA7AB6);
+    left: 1150px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.livros:hover {
+filter: opacity(75%);
+color: black;
+font-weight: bolder; 
+box-shadow: 10px 10px 0 pink, -10px -10px pink;
+-webkit-transition : box-shadow ease-out 0.6s;
+transition : box-shadow ease-out 0.5s;  
+
+}
+
+
+#textocurso {
+ font-family:Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: bold;
+position: absolute;
+left: 650px;
+
+}
+
+figure {
+  float: right;
+  width:30%;
+  position:absolute;
+  left:940px;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#livros1 {
+font: 25px Lucida Console;
+background-image: linear-gradient(#7478D3, #9379C2, #AA7AB6);
+width: 845px;
+height:485px;
+margin: auto; 
+color: white;
+position:absolute;
+text-align: center;
+top: 205px;
+left:100px;
+
+
+}
+
+
+.table1 {
+ font-size: 12px;
+ background-color:#AA7AB6;
+ table-layout:fixed;
+ widht: 450px;
+
+}
+
+.table2 {
+  width: 300px;
+ font-size: 18px;
+ background-color:#7478D3;
+
+}
+
+
+.downloadtext {
+ position: absolute;
+ float: left;
+ left: 200px;
+ font-size: 50px;
+}
+
+/*metodologia*/
+
+.metodologia1 {
+font-size:25;
+position: absolute;
+float: right;
+font-color: #AA7AB6;
+}
+
+.banner2 {
+    float: right;
+    margin: auto;
+   position: absolute;
+   left: 800px;
+   top: 250px;
+}
+
+.textmetodologia{
+position: absolute;
+float: left;
+left: 85px;
+
+}
+
+
+.listametodologia {
+color: #9379C2;
+position: absolute;
+left:50px;
+}
+
+.welcome{
+position: absolute;
+left: 75px;
+
+}
+
+
+
+
